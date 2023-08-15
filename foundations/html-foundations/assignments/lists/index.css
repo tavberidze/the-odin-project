@@ -1,3 +1,10 @@
 body {
+  background: #808070;
   font-family: sans-serif;
+  display: flex;
+  gap: 50px;
+}
+
+li {
+  font-size: 19px;
 }
