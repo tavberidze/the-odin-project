@@ -1,21 +1,65 @@
 * {
-  font-family: sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 700;
   margin: 0;
+}
+
+header {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 6px 0px;
+}
+
+.logo-text {
+  color: #f15025;
+  font-size: 20px;
+}
+
+.header-menu {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.nav-list-item a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
 }
 
 .header-img {
   width: 100%;
   z-index: 0;
+  height: auto;
+  display: block;
 }
 
 .hero-heading {
   position: absolute;
+  max-width: 280px;
   top: 100px;
   left: 100px;
   z-index: 1;
   background: #ffffff;
   padding: 25px;
 }
+
+.hero-heading-container {
+  display: flex;
+}
+
 
 .hero-h1 {
   border-bottom: 1px solid red;
@@ -27,12 +71,12 @@
 }
 
 .section-title {
+  font-size: 36px;
   text-align: center;
   margin: 40px auto 30px auto;
 }
 
 .card-title-origin {
-  text-transform: capitalize;
   display: flex;
   color: #595959;
   font-weight: 700;
@@ -40,6 +84,7 @@
 
 .card-list-item {
   text-decoration: none;
+  color: inherit;
 }
 
 .recipe-card {
@@ -48,4 +93,38 @@
 
 .card-title-origin {
   text-transform: capitalize;
+}
+
+.header-util-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.list-item-link {
+  font-weight: 400;
+}
+
+i {
+  width: 24px;
+  height: 24px;
+}
+
+.card-title-text {
+  font-size: 24px;
+}
+
+.card-title-meta {
+  display: flex;
+}
+
+.card-title-meta-desc {
+  margin-left: 12px;
+  color: #595959;
+  font-weight: 400;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
 }

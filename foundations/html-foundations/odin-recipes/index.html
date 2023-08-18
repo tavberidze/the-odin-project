@@ -6,28 +6,157 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
   <title>Odin Recipes</title>
 </head>
 
 <body>
-  <img class="header-img" src="./images/header">
-  <div class="hero-heading">
-    <h1 class="hero-h1">Odin Recipes</h1>
-    <p class="hero-p">Make the most out of this 5-star recipes.</p>
+  <header>
+    <div class="header-menu">
+      <div class="header-logo-wrapper">
+        <a class="logo">
+          <span class="logo-text">Odin Recipes</span>
+        </a>
+      </div>
+      <nav class="nav">
+        <div class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="./blank">
+                DINNERS
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./blank">
+                MEALS
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./blank">
+                INGREDIENTS
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./blank">
+                OCCASIONS
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./blank">
+                CUISINES
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./blank">
+                KITCHEN TIPS
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./blank">
+                NEWS
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./blank">
+                FEATURES
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-util-nav">
+          <ul class="header-util-list">
+            <li class="util-list-item">
+              <a class="list-item-link">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </li>
+            <li class="util-list-item">
+              <a class="list-item-link">
+                <i class="fa-solid fa-circle-user"></i>
+                Log in
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="hero-heading-container">
+    <img class="header-img" src="./images/header">
+    <div class="hero-heading">
+      <h1 class="hero-h1">Odin Recipes</h1>
+      <p class="hero-p">Make the most out of our collection of 5-star recipes all around the world.</p>
+    </div>
   </div>
+  <h2 class="section-title">Easy Slow Cooker Dinners</h2>
   <div class="main">
-    <h2 class="section-title">Easy Slow Cooker Dinners</h2>
     <a class="card-list-item" href="./recipes/cuban-ropa-vieja.html">
       <img src="./images/cuban-ropa-vieja.webp">
-      <div class="recipe-card" data-tag="Caribbean">
+      <div class="recipe-card" data-tag="CARIBBEAN">
         <span class="card-title">
-          <span class="card-title-origin">caribbean</span>
+          <span class="card-title-origin">CARIBBEAN</span>
           <span class="card-title-text">Cuban Ropa Vieja</span>
-
+          <div class="card-title-meta">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span class="card-title-meta-desc">
+              736 Ratings
+            </span>
+          </div>
+        </span>
+      </div>
+    </a>
+    <a class="card-list-item" href="./recipes/crockpot-italian-chicken.html">
+      <img src="./images/crockpot-italian-chicken.webp">
+      <div class="recipe-card" data-tag="CHICKEN">
+        <span class="card-title">
+          <span class="card-title-origin">CHICKEN BREAST</span>
+          <span class="card-title-text">Crockpot Italian Chicken</span>
+          <div class="card-title-meta">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span class="card-title-meta-desc">
+              36 Ratings
+            </span>
+          </div>
+        </span>
+      </div>
+    </a>
+    <a class="card-list-item" href="./recipes/slow-cooker-sausage-with-sauce.html">
+      <img src="./images/slow-cooker-sausage-with-sauce.webp">
+      <div class="recipe-card">
+        <span class="card-title">
+          <span class="card-title-origin">ITALIAN</span>
+          <span class="card-title-text">Slow Cooker Sausage with Sauce</span>
+          <div class="card-title-meta">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span class="card-title-meta-desc">
+              602 Ratings
+            </span>
+          </div>
         </span>
       </div>
     </a>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
 </body>
 
 </html>
