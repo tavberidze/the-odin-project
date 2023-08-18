@@ -128,3 +128,32 @@ i {
   display: flex;
   justify-content: space-evenly;
 }
+
+footer {
+  background: #f2f2f2;
+}
+
+.footer-container {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-weight: 400;
+  color: #595959;
+}
+
+.copyrights-text a {
+  color: inherit;
+}
+
+.terms-text {
+  color: #cc0000;
+}
+
+.terms-text a {
+  color: inherit;
+}
