@@ -60,7 +60,6 @@ header {
   display: flex;
 }
 
-
 .hero-h1 {
   border-bottom: 1px solid red;
   width: fit-content;
@@ -112,6 +111,12 @@ i {
 
 .card-title-text {
   font-size: 24px;
+  width: 242px;
+}
+
+.card-title-text-box {
+  width: 364px;
+  display: inline-block;
 }
 
 .card-title-meta {
@@ -125,6 +130,12 @@ i {
 }
 
 .main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-second-row {
+  margin-top: 40px;
   display: flex;
   justify-content: space-evenly;
 }
